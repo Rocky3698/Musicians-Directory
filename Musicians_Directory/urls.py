@@ -22,4 +22,5 @@ urlpatterns = [
     path('',views.home,name='home'),
     path('musician/',include('musician.urls')),
     path('album/',include('Album.urls')),
+    path('user/',include('user.urls')),
 ]
